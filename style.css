@@ -1,0 +1,23 @@
+h1 { 
+	size:  large;
+	color: dimgray;
+	text-align: center;
+}
+
+img {
+	width: 200px; 
+	height: 200px;
+}
+
+ul {color: green; text-align: center;}
+
+ol {color: red;}
+
+body {height: 100%}
+
+html {height: 100%;}
+
+div {display: flex;
+  align-items: center;
+  justify-content: center;
+}
