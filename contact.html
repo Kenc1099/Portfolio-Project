@@ -4,6 +4,11 @@
 	<title>Contact</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js">
+	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.bundle.min.js">
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
 </head>
 <style>
 body {
@@ -12,18 +17,53 @@ background-image: url("images/underwater.jpeg");
 }
 </style>
 <body>
-	<font size="6" color="dimgray">
+	<font size="6">
 <h1>Contact</h1>
 </font>
- <div>
-  <a class="btn btn-primary" class="links" href="index.html" role="button">Home</a>
-   <a class="btn btn-primary" class="links" href="about.html" role="button">About Me</a>
-    <a class="btn btn-primary" class="links" href= role="button">Contact</a>
+
+
+<div class="col">
+  <div class="btn-group" role="group" aria-label="Basic example">
+  <button type="button" class="btn btn-secondary"><a href="index.html">Home</a></button>
+  <button type="button" class="btn btn-secondary"><a href="about.html">About Me</a></button>
+  <button type="button" class="btn btn-secondary">Contact</button>
+</div>
+</div>
+
+<div class="container">
+	<div class="row">
+		<div class="col-5">
+
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+  Contact Info
+</button>
+
+</div>
+</div>
+</div>
+
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Contact</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+      	Email: Kenc1099@gmail.com |
+      	Telephone: 929-261-6887
+        
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        
+      </div>
+    </div>
   </div>
-  <footer>
-  	<span class="border border-secondary"><h1> HI</h1></span>
- 
-  </footer>
+</div>
+
 
 </body>
 </html>
