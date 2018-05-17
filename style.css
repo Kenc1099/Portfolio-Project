@@ -1,4 +1,10 @@
-h1 {display: flex;
+body {height: 100%;
+}
+html {height: 100%;}
+
+/*add seperate class for title*/
+h1 {
+  display: flex;
   align-items: center;
   justify-content: center;
 	
@@ -12,10 +18,7 @@ img {
 
 ul {color: green; text-align: center;}
 ol {color: red;}
-body {height: 100%
-}
-html {height: 100%;}
-li { }
+
 a.links {display: inline-block;
               position: relative;}
 
@@ -23,6 +26,15 @@ div {display: flex;
   align-items: center;
   justify-content: center;
 }
-h2 {display: flex;
-  align-items: center;
-  justify-content: center;}
+h2 {
+  margin-left: }
+
+.bg {background-color: #E99A4B;
+           width: 100%;}
+
+.bg2 {background-color: #2C98D2;
+       }
+
+footer {height: 200px;}
+
+i {position: center;}
