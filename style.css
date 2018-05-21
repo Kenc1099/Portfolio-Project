@@ -1,9 +1,8 @@
-body {height: 100%;
+body {
 }
-html {height: 100%;}
+html {}
 
-/*add seperate class for title*/
-h1 {
+.hh1 {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -26,8 +25,7 @@ div {display: flex;
   align-items: center;
   justify-content: center;
 }
-h2 {
-  margin-left: }
+h2 { }
 
 .bg {background-color: #E99A4B;
            width: 100%;}
@@ -37,4 +35,9 @@ h2 {
 
 footer {height: 200px;}
 
-i {position: center;}
+i {color: #2C98D2;
+  font-size: 60px;
+  position: relative;
+  left: 520px;
+ }
+  
