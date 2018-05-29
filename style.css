@@ -11,26 +11,27 @@ html {}
 
 img {
 	position: center;
-	width: 200px; 
-	height: 200px;
+	width: 300px; 
+	height: 500px;
 }
 
 ul {color: green; text-align: center;}
 ol {color: red;}
 
-a.links {display: inline-block;
-              position: relative;}
+
 
 div {display: flex;
   align-items: center;
   justify-content: center;
 }
-h2 { }
 
 .bg {background-color: #E99A4B;
-           width: 100%;}
+           width: 100%;
+    opacity: 0.9;}
 
 .bg2 {background-color: #2C98D2;
+      height: 600px;
+      opacity: 0.8;
        }
 
 footer {height: 200px;}
@@ -38,6 +39,6 @@ footer {height: 200px;}
 i {color: #2C98D2;
   font-size: 60px;
   position: relative;
-  left: 520px;
+  left: 45%;
+  opacity: 3.0;
  }
-  
